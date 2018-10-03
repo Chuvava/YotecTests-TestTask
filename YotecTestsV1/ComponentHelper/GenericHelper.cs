@@ -77,6 +77,8 @@ namespace YotecTestsV1.ComponentHelper
         public static void TakeScreenShot(string fileName = "Screen")
         {
             Logger.Info("Taking ScreenShot");
+            if (!Directory.Exists(ObjectRepository.Config.GetScreenShotsPath()))
+                Directory.CreateDirectory(ObjectRepository.Config.GetScreenShotsPath());
             Screenshot screen = ObjectRepository.Driver.TakeScreenshot();
             if (fileName.Equals("Screen"))
             {
