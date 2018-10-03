@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AllTests>  
+  <LocationType xpath="//span[text() = 'Warranty']/preceding-sibling::span" name="Warranty"/>
+  <LocationType xpath="//span[text() = 'Sales']/preceding-sibling::span" name="Sales"/>
+  <LocationType xpath="//span[text() = 'Parts']/preceding-sibling::span" name="Parts"/>
+  <LocationType xpath="//span[text() = 'Manufacturing']/preceding-sibling::span" name="Manufacturing"/>
+  <LocationType xpath="//span[text() = 'Service']/preceding-sibling::span" name="Service"/> 
+  <LocationType xpath="//span[text() = 'Corporate']/preceding-sibling::span" name="Corporate"/>
+</AllTests>
